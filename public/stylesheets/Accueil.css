@@ -1,0 +1,356 @@
+/*style de l'entête*/
+body{
+    font-family: Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.entete{
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 50px;
+}
+
+#I-C-A{
+    display: table;
+    float: right;
+    margin-right: 40px;
+    
+}
+
+.I-C-A{
+    color: black;
+    margin-left: 30px;
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#imoB{
+    color: #2F934A;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0px 0px 7px;
+}
+
+
+/*style de l'accueil*/
+.infoQ1, .imgQ1, .infoQ2, .imgQ2, .infoM1, .imgM1, .infoM2, .imgM2{
+    text-align: center;
+    
+    width: 400px;
+    margin: 3px;
+}
+
+.imgQ1, .imgQ2, .imgM2, .imgM1{
+    height: 350px;
+}
+
+.imgQ1{
+    box-shadow: 0px 2px 2px black;
+    background-image: url("../images/quatierH.JPG");
+    background-size: 100% 100%;
+}
+
+.imgM1{
+    box-shadow: 0px 2px 2px black;
+    background-image: url("../images/imeuble1.png");
+    background-size: 100% 100%;
+}
+
+.infoQ1, .infoQ2,.infoM1, .infoM2{
+    height: 60px;
+}
+
+a{
+    color: black;
+}
+
+section{ 
+    width: 100%;
+}
+
+.descriptionDuSite, .descriptionMaison{
+    height: 70px;   
+}
+
+.descriptionDuSite, .descriptionMaison{
+    border-bottom: 1px solid #CECCCC;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.sectionQ, .sectionM{
+    height: 610px;
+}
+
+.Cadre3Quatiers, .Cadre2Maisons{
+    margin-left: 250px;
+    display: table;
+    height: 600px;
+}
+
+.img-info-Q, .img-info-M{
+    display: inline-block;
+    float: left;
+    
+    width: 420px;
+    height: 440px;
+    margin: 40px;
+    padding: 5px 0px 5px 0px;
+}
+
+footer{
+    border-top: 1px solid #B5B3B3;
+    text-align: center;
+}
+
+#contact, #titredublog{
+    text-align: center;
+}
+
+#alasco{
+    color: #0F0F0E;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+}
+
+/*style des images*/
+.gdeImgM1{
+    border: 1px solid red;
+    width: 100%;
+    height: 750px;
+    background-image: url("../images/quatier_hevea/maison_rouge_gris/imgimeuble.JPG");
+    background-size: 100% 100%;
+}
+
+.gdeImgM2{
+    border: 1px solid red;
+    width: 100%;
+    height: 750px;
+    background-image: url("");
+    background-size: 100% 100%;
+}
+
+.sombre{
+    width: 100%;
+    height: 750px;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    margin-top:-750px;
+}
+
+.blanche{
+    background-color: white;
+    width: 924px;
+    height: 589.6px;
+    margin: auto;
+    position: absolute;
+    margin-top:-730px;
+    margin-left: 300px;
+}
+
+.cadreSursombre{
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    margin-top:-750px
+}
+
+.divDePosition{
+    border: 1px solid green;
+    width: 968px;/*530*/ /*120%*/
+   /* height: 603px;/*150*/ /*34%*/
+    margin: auto;
+    margin-top: 20px;
+}
+
+.limiteOverFlow{
+    overflow: hidden;
+    border: 1px solid red;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 924px;
+    height: 589.6px;
+}
+
+.limiteOverFlow2{
+    overflow: hidden;
+    border: 1px solid red;
+    width: 924px;
+    height: 100px;
+    margin: auto;
+}
+
+.conteneurDesImages{
+    border: 1px solid blue;
+    width: 11440px;
+    height: 589.6px;
+}
+
+.conteneurDesImages >*{
+    float: left;
+}
+
+.conteneurDesImages2{
+    border: 1px solid blue;
+    width: 1800px;
+    height: 100px;
+}
+
+.conteneurDesImages2 >*{
+    float: left;
+}
+
+.imggrd1, .imggrd2, .imggrd3, .imggrd4, .imggrd5, .imggrd6, .imggrd7, .imggrd8, .imggrd9, .imggrd10, .imggrd11, .imggrd12{
+    border: 1px solid yellow;
+    width: 924px;
+    height: 589px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img13{
+    border: 1px solid yellow;
+    width: 131px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+/*style css slide*/
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #120103;
+    color: #fff;
+    text-align: center;
+}
+
+#petite_img_contente{
+    box-shadow: 0 .2em 0.5em #111;
+    width: 100%;
+}
+
+.label1, .label2, .label3, .label4,
+.label5, .label6, .label7, .label8, .label9,
+.label10, .label11, .label12{
+    width: 130px;
+    height: 100px;
+    color: #788188;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 10em;
+    font-size: .550em;
+    font-weight: bold;
+    padding: 0 1em;
+}
+
+.label1:hover, .label2:hover, .label3:hover,
+.label4:hover, .label5:hover, .label6:hover,
+.label7:hover, .label8:hover, .label9:hover,
+.label10:hover, .label11:hover, .label12:hover
+{
+    background: #2e353b;
+}
+
+.slide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-color: #120103;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: left 0s .75s;
+}
+
+#Ptitslide1{
+    background-image: url("../images/photo_slide_gdiv/img10.png");
+}
+
+#slide-1{
+    position: absolute;
+    margin-top: -100px;
+}
+
+#slide-2, #Ptitslide2{
+    background-image: url("../images/photo_slide_gdiv/img2.png");
+}
+
+#slide-3, #Ptitslide3{
+    background-image: url("../images/photo_slide_gdiv/img3.png");
+}
+
+#slide-4, #Ptitslide4{
+    background-image: url("../images/photo_slide_gdiv/img4.png");
+}
+
+#slide-5, #Ptitslide5{
+    background-image: url("../images/photo_slide_gdiv/img5.png");
+}
+
+#slide-6, #Ptitslide6{
+    background-image: url("../images/photo_slide_gdiv/img6.png");
+}
+
+#slide-7, #Ptitslide7{
+    background-image: url("../images/photo_slide_gdiv/img7.png");
+}
+
+#slide-8, #Ptitslide8{
+    background-image: url("../images/photo_slide_gdiv/img8.png");
+}
+
+#slide-9, #Ptitslide9{
+    background-image: url("../images/photo_slide_gdiv/img9.png");
+}
+
+#slide-10, #Ptitslide10{
+    background-image: url("../images/photo_slide_gdiv/img10.png");
+}
+
+#Ptitslide1, #Ptitslide2, #Ptitslide3, #Ptitslide4,
+#Ptitslide5, #Ptitslide6, #Ptitslide7,
+#Ptitslide8, #Ptitslide9, #Ptitslide10{
+    background-size: 100% 100%;
+}
+
+
+[id^="slide"]:checked + .slide{
+    left: 0;
+    z-index: 100;
+    transition: left .65s ease-out;
+}
+
+.slide h1{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform .5s .5s, opacity .5s;
+}
+
+[id^="slide"]:checked + .slide h1{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all .5s .5s
+}
+
